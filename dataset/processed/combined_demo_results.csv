@@ -1,0 +1,4 @@
+filename,size_bytes,entropy,ml_test_actual_class,ml_test_predicted_class
+sample.txt,4000,3.9209505944546676,1,1
+sample_binary.bin,25600,8.0,1,1
+sample_image.png,0,0.0,1,1

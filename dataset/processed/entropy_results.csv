@@ -1,0 +1,4 @@
+filename,size_bytes,entropy
+sample.txt,4000,3.9209505944546676
+sample_binary.bin,25600,8.0
+sample_image.png,0,0.0
