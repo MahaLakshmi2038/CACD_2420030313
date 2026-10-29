@@ -72,3 +72,11 @@ python src/detect_file.py sample_files/sample.txt
 
 For educational and defensive cybersecurity research only.
 
+
+## Feature Mapping and Importance Analysis
+
+The project includes the original MLRan feature-name mapping at `dataset/raw/RFE_selected_feature_names_dic.json`. The mapping contains 483 entries, and all 483 feature IDs were verified against the training dataset with no missing or extra mappings.
+
+The top 20 features ranked by the existing feature-importance analysis are available in `dataset/processed/top20_feature_importance_named.csv`. This report includes each feature ID, its original feature name, and its importance score. The original `top20_feature_importance.csv` is preserved.
+
+Feature importance indicates how features contribute to the trained model's predictions; it does not establish that an individual API call, DLL load, registry operation, or string is malicious. These results should be interpreted in the context of the dataset and model evaluation.
