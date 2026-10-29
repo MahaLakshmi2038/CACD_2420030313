@@ -32,7 +32,7 @@ Confusion matrix (rows = actual class, columns = predicted class):
 | Class 0 | 493 | 17 |
 | Class 1 | 11 | 454 |
 
-The meanings of class 0 and class 1 must be verified using the original dataset documentation before assigning benign or ransomware labels.
+Class 0 represents goodware (benign files), and class 1 represents ransomware, verified against the original MLRan dataset metadata. The dataset contains 2,550 goodware samples and 2,330 ransomware samples.
 
 ## File Entropy Analysis
 
@@ -71,3 +71,4 @@ python src/detect_file.py sample_files/sample.txt
 ## Disclaimer
 
 For educational and defensive cybersecurity research only.
+
